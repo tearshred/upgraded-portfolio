@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>Upgraded Portfolio</title>
+</head>
+
+<body>
+
+    <nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container">
+                        <a class="navbar-brand" href="#" alt="Full Stack Web Developer">Ves Miskeljin</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav" id="menu-buttons">
+                                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link" href="#">Portfolio</a>
+                                <a class="nav-item nav-link" href="#">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+    <div class="slider">
+        <div class="container" id="slider-content">
+               <h1>Welcome To My Portfolio</h1>
+            
+            <div id="slider-images">
+                <img id="close-up" src="assets/img/img.png" alt="my-photo">
+            </div>
+
+            <h2>Ves Miskeljin - Full Stack Developer</h2>
+        </div>
+    </div>
+
+    <div class="container" id="main-content">
+        <br>
+        <h1>About Me</h1>
+
+        <br>
+        <p>Hello! My name is Ves and I am a full stack web developer from San Diego. I enjoy making cool websites and web apps. Check out my skillset below</p>
+
+        <br><br>
+
+        <div class="skillbar clearfix " data-percent="80%">
+                <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+                <div class="skillbar-bar" style="background: #e67e22;"></div>
+                <div class="skill-bar-percent">80%</div>
+            </div> <!-- End Skill Bar -->
+            
+            <div class="skillbar clearfix " data-percent="80%">
+                <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+                <div class="skillbar-bar" style="background: #3498db;"></div>
+                <div class="skill-bar-percent">80%</div>
+            </div> <!-- End Skill Bar -->
+            
+            <div class="skillbar clearfix " data-percent="70%">
+                <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+                <div class="skillbar-bar" style="background: #2c3e50;"></div>
+                <div class="skill-bar-percent">70%</div>
+            </div> <!-- End Skill Bar -->
+            
+            <div class="skillbar clearfix " data-percent="60%">
+                <div class="skillbar-title" style="background: #46465e;"><span>JavaScript</span></div>
+                <div class="skillbar-bar" style="background: #5a68a5;"></div>
+                <div class="skill-bar-percent">60%</div>
+            </div> <!-- End Skill Bar -->
+            
+            <div class="skillbar clearfix " data-percent="45%">
+                <div class="skillbar-title" style="background: #333333;"><span>Wordpress</span></div>
+                <div class="skillbar-bar" style="background: #525252;"></div>
+                <div class="skill-bar-percent">45%</div>
+            </div> <!-- End Skill Bar -->
+            
+            <div class="skillbar clearfix " data-percent="30%">
+                <div class="skillbar-title" style="background: #27ae60;"><span>NodeJS</span></div>
+                <div class="skillbar-bar" style="background: #2ecc71;"></div>
+                <div class="skill-bar-percent">30%</div>
+            </div> <!-- End Skill Bar -->
+            </div>
+    </div>
+
+    <footer id="footer">
+            
+            <div id="copyright">&copy; Copyright
+                <script>document.write(new Date().getFullYear())</script> | Ves Miskeljin
+            </div>
+            <div id="footer-links">
+                    <a href="https://www.linkedin.com/in/ves-miskeljin/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a> 
+                    <a href="https://github.com/tearshred" target="_blank"><i class="fab fa-github fa-2x"></i></a> 
+                    <a href="#"><i class="far fa-envelope fa-2x"></i></a> 
+                </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

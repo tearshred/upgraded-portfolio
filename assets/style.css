@@ -176,6 +176,52 @@ body {
 	color:#ffffff;
 	color:rgba(0, 0, 0, 0.4);
 }
+
+#resume{
+    font-size: 32px;
+    text-align: center;
+}
+#portfolio{
+    padding: 20px;
+    font-size: 32px;
+    text-align: center;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#projects img{
+    display: block;
+    padding: 5px;
+    max-height: 256px;
+    max-width: 256px;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+#projects img:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#item{
+    display: flex;
+}
 #footer {
     background-color: rgb(36, 36, 36);
     color: white;
@@ -191,7 +237,7 @@ body {
     font-size: 22px;
 }
 #footer-links{
-    padding: 15px;
+    padding: 30px 15px 20px 15px;
 }
 
 
@@ -205,5 +251,13 @@ body {
         padding-top: 20px;
         color: white;
         font-size: 22px;
-}
+    }
+    #projects{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #projects img{
+        padding-bottom: 35px;
+    }
 }

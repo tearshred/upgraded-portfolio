@@ -22,7 +22,8 @@
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
 
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
@@ -33,26 +34,26 @@
 <body>
 
     <nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container">
-                        <a class="navbar-brand" href="#" alt="Full Stack Web Developer">Ves Miskeljin</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav" id="menu-buttons">
-                                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                                <a class="nav-item nav-link" href="#">Portfolio</a>
-                                <a class="nav-item nav-link" href="#">Contact</a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
+        <div class="container">
+            <a class="navbar-brand" href="#" alt="Full Stack Web Developer">Ves Miskeljin</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" id="menu-buttons">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a id="portfolioBtn" class="nav-item nav-link" href="#">Portfolio</a>
+                    <a id="resumeBtn" class="nav-item nav-link" href="#">Resume</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <div class="slider">
         <div class="container" id="slider-content">
-               <h1>Welcome To My Portfolio</h1>
-            
+            <h1>Welcome To My Portfolio</h1>
+
             <div id="slider-images">
                 <img id="close-up" src="assets/img/img.png" alt="my-photo">
             </div>
@@ -66,58 +67,100 @@
         <h1>About Me</h1>
 
         <br>
-        <p>Hello! My name is Ves and I am a full stack web developer from San Diego. I enjoy making cool websites and web apps. Check out my skillset below</p>
+        <p>Hello! My name is Ves and I am a full stack web developer from San Diego. I enjoy making cool websites and
+            web apps. Check out my skillset below</p>
 
         <br><br>
 
         <div class="skillbar clearfix " data-percent="80%">
-                <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
-                <div class="skillbar-bar" style="background: #e67e22;"></div>
-                <div class="skill-bar-percent">80%</div>
-            </div> <!-- End Skill Bar -->
-            
-            <div class="skillbar clearfix " data-percent="80%">
-                <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
-                <div class="skillbar-bar" style="background: #3498db;"></div>
-                <div class="skill-bar-percent">80%</div>
-            </div> <!-- End Skill Bar -->
-            
-            <div class="skillbar clearfix " data-percent="70%">
-                <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
-                <div class="skillbar-bar" style="background: #2c3e50;"></div>
-                <div class="skill-bar-percent">70%</div>
-            </div> <!-- End Skill Bar -->
-            
-            <div class="skillbar clearfix " data-percent="60%">
-                <div class="skillbar-title" style="background: #46465e;"><span>JavaScript</span></div>
-                <div class="skillbar-bar" style="background: #5a68a5;"></div>
-                <div class="skill-bar-percent">60%</div>
-            </div> <!-- End Skill Bar -->
-            
-            <div class="skillbar clearfix " data-percent="45%">
-                <div class="skillbar-title" style="background: #333333;"><span>Wordpress</span></div>
-                <div class="skillbar-bar" style="background: #525252;"></div>
-                <div class="skill-bar-percent">45%</div>
-            </div> <!-- End Skill Bar -->
-            
-            <div class="skillbar clearfix " data-percent="30%">
-                <div class="skillbar-title" style="background: #27ae60;"><span>NodeJS</span></div>
-                <div class="skillbar-bar" style="background: #2ecc71;"></div>
-                <div class="skill-bar-percent">30%</div>
-            </div> <!-- End Skill Bar -->
+            <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+            <div class="skillbar-bar" style="background: #e67e22;"></div>
+            <div class="skill-bar-percent">80%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="80%">
+            <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+            <div class="skillbar-bar" style="background: #3498db;"></div>
+            <div class="skill-bar-percent">80%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="70%">
+            <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+            <div class="skillbar-bar" style="background: #2c3e50;"></div>
+            <div class="skill-bar-percent">70%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="60%">
+            <div class="skillbar-title" style="background: #46465e;"><span>JavaScript</span></div>
+            <div class="skillbar-bar" style="background: #5a68a5;"></div>
+            <div class="skill-bar-percent">60%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="45%">
+            <div class="skillbar-title" style="background: #333333;"><span>Wordpress</span></div>
+            <div class="skillbar-bar" style="background: #525252;"></div>
+            <div class="skill-bar-percent">45%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #27ae60;"><span>NodeJS</span></div>
+            <div class="skillbar-bar" style="background: #2ecc71;"></div>
+            <div class="skill-bar-percent">40%</div>
+        </div> <!-- End Skill Bar -->
+
+        <br>
+        <hr>
+        <br>
+        <div id="resume">
+            <h1>My Resume</h1>
+
+            <br>
+
+            <a href="assets/pdf/resume.pdf" target="_blank"><i class="fas fa-file-pdf fa-5x"></i></a>
+            <br><br>
+            <h2 style="font-size: 24px">Click the icon to view!</h2>
+            <br>
+            <hr>
+        </div>
+
+        <div id="portfolio">
+            <h1>My Projects</h1>
+            <br>
+
+            <div id="projects">
+                <div id="item">
+                        <a href="https://tearshred.github.io/train-scheduler/" target="_blank"><img src="assets/img/Train-Scheduler.png" alt="Train Scheduler App"></a>
+                        
+                </div>
+
+
+                <div id="item">
+                        <a href="https://tearshred.github.io/Crystal-Collector-Game/" target="_blank"><img src="assets/img/Crystal-Collector.png" alt="Train Scheduler App"></a>
+                </div>
+
+
+                <div id="item">
+                        <a href="https://tearshred.github.io/Doctor-Finder" target="_blank"><img src="assets/img/Doctor-Finder.png" alt="Train Scheduler App"></a>
+                </div>
             </div>
+
+            <br>
+
+        </div>
+
+
     </div>
 
     <footer id="footer">
-            
-            <div id="copyright">&copy; Copyright
-                <script>document.write(new Date().getFullYear())</script> | Ves Miskeljin
-            </div>
-            <div id="footer-links">
-                    <a href="https://www.linkedin.com/in/ves-miskeljin/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a> 
-                    <a href="https://github.com/tearshred" target="_blank"><i class="fab fa-github fa-2x"></i></a> 
-                    <a href="#"><i class="far fa-envelope fa-2x"></i></a> 
-                </div>
+
+        <div id="copyright">&copy; Copyright
+            <script>document.write(new Date().getFullYear())</script> | Ves Miskeljin
+        </div>
+        <div id="footer-links">
+            <a href="https://www.linkedin.com/in/ves-miskeljin/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/tearshred" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a href="#"><i class="far fa-envelope fa-2x"></i></a>
+        </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

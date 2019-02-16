@@ -5,3 +5,15 @@ jQuery(document).ready(function(){
 		},6000);
 	});
 });
+
+$("#portfolioBtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#portfolio").offset().top
+    }, 2000);
+});
+
+$("#resumeBtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#resume").offset().top
+    }, 2000);
+});
